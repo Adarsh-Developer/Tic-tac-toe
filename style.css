@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: poppins;
+  user-select: none;
 }
 
 html, body{
@@ -51,6 +52,10 @@ html, body{
   border: 2px solid #222;
   cursor: pointer;
   user-select: none;
+  font-weight: 400;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.3s ease-in;
 }
 .restart__btn:hover {
   background: #222;
@@ -113,4 +118,8 @@ html, body{
   margin-top: 30px;
   font-size: 30px;
   font-weight: 400;
+}
+
+.box__text{
+  outline: none;
 }
