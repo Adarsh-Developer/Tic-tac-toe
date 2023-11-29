@@ -79,7 +79,7 @@ boxes.forEach((element) => {
       console.log(clickedBox);
     }
     tapSound.volume = 0.2;
-    tapSound.currentTime = 0.1;
+    tapSound.currentTime = 0.12;
     tapSound.play();
   });
 });
